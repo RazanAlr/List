@@ -1,0 +1,28 @@
+# three way to add element
+# first way: append()
+# example :
+
+a = [0, 1, 2]
+a.append(100)
+print(a)
+a.append('abc')
+print(a)
+
+# second way: extend()
+#example:
+myList = [0, 1, 2]
+myList.extend([10, 11, 12])
+print(myList)
+myList.extend('abc')
+print(myList)
+
+# third way: insert()
+# example:
+myList1= ['a', 'b', 'c']
+myList1.insert(1, 100)
+print(myList1)
+myList1.insert(-1, 300)
+print(myList1)
+
+
+
