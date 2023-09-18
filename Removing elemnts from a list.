@@ -1,0 +1,21 @@
+# example 1 using remove method:
+mylist = ["apple", "banana", "cherry"]
+mylist.remove("banana")
+print(mylist)
+
+# example 2 using pop method:
+mylist = ["apple", "banana", "cherry"]
+print(mylist.pop(0))
+print(mylist)
+
+# example 3 using clear method:
+mylist = ["apple", "banana", "cherry"]
+mylist.clear()
+print(mylist)
+
+# example 4 using del:
+mylist = ["apple", "banana", "cherry"]
+del mylist
+print(mylist) 
+#this will cause an error because you have succsesfully deleted "mylist".
+# output : NameError: name 'mylist' is not defined
