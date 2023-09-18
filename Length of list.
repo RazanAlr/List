@@ -1,0 +1,6 @@
+# example 1:
+mylist = ["apple", "orange", "banana"]
+print(len(mylist))
+
+# example 2:
+len([1, 2, 3, 4])
