@@ -1,11 +1,10 @@
 # example 1:
 
-pet = ["cat", "dog", "fish", "rabbit", "horse", "bird"]
-#Extracting a portion of the list from 2nd to 5th element 
-print(pet[2:5])
-print(pet[-3:-1])
-#get all items after a given index 
-print(pet[3:])
+pet = ["cat", "dog", "fish", "rabbit"]
+#accessing 4th element of the list
+print(pet[3])
+#accessing 2nd element of the list
+print(pet[1])
 
 # example 2:
 
