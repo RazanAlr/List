@@ -3,24 +3,19 @@
 text ='Python' 
 text_list = list(text)
 print(text_list)
-# output : ['P', 'y', 't', 'h', 'o', 'n']
+
 # example 2:
 my_list = list(('A', 'B', 'C'))
 print(my_list) 
-# output : ['A', 'B', 'C']
+
 
 # second way: using square bracket []
 # example 1:
 List = [1, 2, 4, 4, 3, 3, 3, 6, 5]
 print("\nList with the same data type: ")
 print(List)
-''' output 
-List with the same data type:
-[1, 2, 4, 4, 3, 3, 3, 6, 5]'''
+
 # example 2:
 my_list = ['John', 23, 'Car', 45.2837]
 print("\nList with differ data type: ")
 print(my_list)
-''' output 
-List with differ data type﻿:
-[﻿'John', 23, 'Car', 45.2837]''' 
