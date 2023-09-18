@@ -1,0 +1,14 @@
+# example 1:
+Names = ['Jon', 'Bill', 'Maria', 'Jenny', 'Jack']
+Names[2] = 'Mona'
+print(Names)
+
+# example 2:
+List=[10, 20, 30, 40, 50, 60]
+List[-1]=61
+print(List)
+
+# example 3:
+Names = ['Jon', 'Bill', 'Maria', 'Jenny', 'Jack']
+Names[2:5]='Mona','Lina','Mark'
+print(Names)
